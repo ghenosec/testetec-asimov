@@ -37,14 +37,13 @@ export function CodeWindow() {
         floatDelay="1.2s"
       />
       <FloatingBadge
-        className="absolute -bottom-6 left-8 anim-fade-up delay-1000"
+        className="absolute bottom-4 right-4 anim-fade-up delay-1000"
         icon={<CertIcon />}
         label="Certificado"
         sub="reconhecido pelo mercado"
         accent="amber"
         floatDelay="2.4s"
       />
-
       <div className="ring-grad relative rounded-2xl bg-bg-elev/90 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.6)] backdrop-blur anim-scale-in delay-500">
         <div className="flex items-center justify-between border-b border-border px-4 py-3">
           <div className="flex items-center gap-1.5">
