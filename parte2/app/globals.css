@@ -108,18 +108,19 @@ body {
 
 .text-gradient {
   background: linear-gradient(
-    100deg,
-    #ffd43b 0%,
-    #ffe873 18%,
-    #ffffff 50%,
-    #7eb3dc 78%,
-    #4b8bbe 100%
+    92deg,
+    #3f7fb2 0%,
+    #5d9cc8 18%,
+    #86bbd7 34%,
+    #bfd3c5 50%,
+    #eadb93 68%,
+    #ffe873 84%,
+    #ffd43b 100%
   );
-  background-size: 200% auto;
+  background-size: 100% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: shimmer 6s linear infinite;
 }
 
 .bg-grid {
